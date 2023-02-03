@@ -86,10 +86,10 @@
     <script>
         $(document).ready(function () {
             fetch("http://spartacodingclub.shop/sparta_api/weather/seoul").then(res => res.json()).then(data => {
-                let 기온 = data['temp']
+                let nalc = data['temp']
 
 
-                $('#temp').text(기온)
+                $('#temp').text(nalc)
 
             })
         })
